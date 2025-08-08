@@ -83,11 +83,11 @@ main a{
 }
 
 
-/* teste */
+/*Butão azul do explorar. Tá certo o butão só falta o txt ficar branco */
 
 .explorar {
   background-color: #007BFF;  /* azul do botão */
-  color: white;               /* <-- texto branco */
+  color: white;               /* texto branco */
   border: none;
   padding: 12px 24px;
   font-size: 16px;
@@ -98,3 +98,6 @@ main a{
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+/* ta certo tbm */
+.explorar:hover {
+    background-color: #0056b3; }
