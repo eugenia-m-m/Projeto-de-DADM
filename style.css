@@ -6,7 +6,7 @@
 
 /* Cabeçalho */
 header {
-    background-color: rgb(244, 202, 208);
+    background-color: rgba(141, 131, 131, 0.8);
     color: #111010;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
@@ -28,7 +28,7 @@ header a{
 
 /* Estilo dos botões / links */
 .button{
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(141, 131, 131, 0.8);
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 1em;
@@ -40,8 +40,7 @@ header a{
 
 /* Quando o mouse por cima, muda a cor do botão */
 .button:hover {
-    background-color: rgba(141, 131, 131, 0.8);
-    border-radius: 4px;
+    font-size: 1.1em;
 }
 
 main a{
