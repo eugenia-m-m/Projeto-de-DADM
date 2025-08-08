@@ -96,6 +96,7 @@ main a{
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
