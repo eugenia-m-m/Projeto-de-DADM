@@ -6,57 +6,78 @@
 
 /* Cabeçalho */
 header {
-    background-color: rgba(213, 194, 194, 0.145);
+    background-color: rgba(141, 131, 131, 0.8);
     color: #111010;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 0.5px;
+    padding: 20px;
     font-size: 1em;
 }
 
+header a{
+    color: black
+}
+
 /* Container de navegação */
-.butaos{
-    display: flex; /* utiliza flexbox para alinhar os itens horizontalmente */
+.butao{
+    display: flex;
     justify-content: flex-end; /* alinha os itens à esquerda */
-    gap: 10px; /* espacamento entre os itens */
-    flex-wrap: wrap; /* permite que os itens sejam quebrados em linhas se necessário */
-    margin-top: 10px; /* adiciona uma margem superior */
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 /* Estilo dos botões / links */
 .button{
-    background-color: rgba(255, 255, 255, 0.145);
-    color: #000; 
-    padding: 0.5px 1px;  
-    margin: 8px; 
-    margin-right: 40px;
+    background-color: rgba(141, 131, 131, 0.8);
+    padding: 5px 10px;
+    border-radius: 4px;
     font-size: 1em;
-    text-decoration: none; /* text-decoration: none; remove o sublinhado dos links */
+    text-decoration: none;
+    transition: background-color 0.3s;
     cursor: pointer;
-    display: inline-block; /* permite que os botões sejam exibidos em linha */
+    display: inline-block;
 }
 
+/* Quando o mouse por cima, muda a cor do botão */
 .button:hover {
-    font-size: 1.1em;   /* aumenta a fonte quando o mouse passa sobre o botão */
+    font-size: 1.1em;
 }
 
-main{
-    background-color: rgba(213, 194, 194, 0.145);
-    color: #111010;
+main a{
+    color: black;
 }
 
-#logo {
-    padding-left: 130px;
-    margin-top: 160px;
+.a {
+    text-decoration: none;
 }
 
-h1 {
+
+/* Aqui começa a primeira seção, onde tem a img*/
+#secao1{
+    display: flex;
     text-align: center;
-    font-size: 2em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 500px;
 }
 
-p {
-    text-align: center;
-    font-size: 1.5em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* Aqui tem a segunda seção, onde tem o texto e o botão */
+#secao2{
+    margin-left: 650px;
+    margin-bottom: 200px;
+}
+
+#secao3{
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: 300px;
+}
+
+#secao4{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 70px; */
+    margin-left: 300px;
 }
