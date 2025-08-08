@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(213, 194, 194, 0.145);
+    color: #111010;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.5px;
+    font-size: 1em;
+}
+
+/* Container de navegação */
+.butaos{
+    display: flex; /* utiliza flexbox para alinhar os itens horizontalmente */
+    justify-content: flex-end; /* alinha os itens à esquerda */
+    gap: 10px; /* espacamento entre os itens */
+    flex-wrap: wrap; /* permite que os itens sejam quebrados em linhas se necessário */
+    margin-top: 10px; /* adiciona uma margem superior */
+}
+
+/* Estilo dos botões / links */
+.button{
+    background-color: rgba(255, 255, 255, 0.145);
+    color: #000; 
+    padding: 0.5px 1px;  
+    margin: 8px; 
+    margin-right: 40px;
+    font-size: 1em;
+    text-decoration: none; /* text-decoration: none; remove o sublinhado dos links */
+    cursor: pointer;
+    display: inline-block; /* permite que os botões sejam exibidos em linha */
+}
+
+.button:hover {
+    font-size: 1.1em;   /* aumenta a fonte quando o mouse passa sobre o botão */
+}
+
+main{
+    background-color: rgba(213, 194, 194, 0.145);
+    color: #111010;
+}
+
+#logo {
+    padding-left: 130px;
+    margin-top: 160px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
