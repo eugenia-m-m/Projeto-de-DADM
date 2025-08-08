@@ -63,8 +63,15 @@ main a{
 
 /* Aqui tem a segunda seção, onde tem o texto e o botão */
 #secao2{
+    font-family: fantasy;
+    font-size: 1.2em;
     margin-left: 650px;
     margin-bottom: 200px;
+}
+
+#secao2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 
 #secao3{
@@ -91,7 +98,7 @@ main a{
   text-decoration: none;               /* texto branco */
   border: none;
   padding: 8px 16px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
