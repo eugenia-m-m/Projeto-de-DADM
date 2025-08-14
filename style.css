@@ -60,13 +60,13 @@ main a{
 }
 
 
-/* Aqui começa a primeira seção, onde tem a img*/
+/* Aqui começa a primeira seção, onde tem a logo*/
 #logo{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 30px;
-    margin-right: 500px;
+    margin-top: 50px;
+    margin-right: 1000px;
 }
 
 /* Aqui tem a segunda seção, onde tem o texto e o botão */
