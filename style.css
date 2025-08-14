@@ -68,9 +68,16 @@ main a{
     margin-top: 50px;
     margin-right: 1000px;
 }
+#logo img {
+    padding: 30px;
+}
 
+.titulo{
+    background-color: #f2e3cf;
+}
 /* Aqui tem a segunda seção, onde tem o texto e o botão */
 #secao2 {
+    display: flex;
     font-family: Gliker;
     color: #2e180e;
     margin-left: 650px;
@@ -98,11 +105,15 @@ main a{
 }
 
 #secao4{
-    display: inline-block;
+    /* display: inline-block;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; */
+    display:flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    gap: 10px;
     align-items: center;
-    /* margin-bottom: 70px; */
+    margin-bottom: 70px;
     margin-left: 300px;
 }
 
