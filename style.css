@@ -5,15 +5,15 @@
 }
 
 /* Cabeçalho */
-header {
+div {
     background-color: #f2e3cf;
-    color: #111010;
+    color: #2e180e;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
     font-size: 1em;
 }
 
-header a{
+div a{
     color: black
 }
 
@@ -28,7 +28,9 @@ header a{
 
 /* Estilo dos botões / links */
 .button{
-    background-color: rgba(141, 131, 131, 0.8);
+    background-color: #f2e3cf;
+    margin: 0px 20px; 
+    color: #2e180e;
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 1em;
@@ -40,7 +42,13 @@ header a{
 
 /* Quando o mouse por cima, muda a cor do botão */
 .button:hover {
+    text-decoration: underline;
+    padding: 3px 10px;
     font-size: 1.1em;
+}
+
+body{
+    background-color: #f2e3cf;
 }
 
 main a{
@@ -62,17 +70,21 @@ main a{
 }
 
 /* Aqui tem a segunda seção, onde tem o texto e o botão */
-#secao2{
-    font-family: fantasy;
-    font-size: 1.2em;
+#secao2 {
+    font-family: gliker;
+    color: #2e180e;
+    font-size: 1.7em;
     margin-left: 650px;
     margin-bottom: 200px;
+    font-weight: 400px;
 }
 
+
 #secao2 p{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
+    font-family: opensans;
+    font-size: 1em;
 }
+
 
 #secao3{
     display: inline-block;
@@ -97,6 +109,7 @@ main a{
   color: white; 
   text-decoration: none;               /* texto branco */
   border: none;
+  margin: 10px;
   padding: 8px 16px;
   font-size: 12px;
   font-weight: bold;
