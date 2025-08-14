@@ -61,7 +61,7 @@ main a{
 
 
 /* Aqui começa a primeira seção, onde tem a img*/
-#secao1{
+#logo{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -71,18 +71,23 @@ main a{
 
 /* Aqui tem a segunda seção, onde tem o texto e o botão */
 #secao2 {
-    font-family: gliker;
+    font-family: Gliker;
     color: #2e180e;
-    font-size: 1.7em;
     margin-left: 650px;
     margin-bottom: 200px;
-    font-weight: 400px;
+}
+#secao2 h1 {
+    font-family: Gliker, sans-serif;
+    font-size: 3.8em;
+    /* margin-bottom: px; */
+    font-weight: bold;
 }
 
 
 #secao2 p{
-    font-family: opensans;
-    font-size: 1em;
+    font-family: Open Sans, sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 20px;
 }
 
 
@@ -109,7 +114,6 @@ main a{
   color: white; 
   text-decoration: none;               /* texto branco */
   border: none;
-  margin: 10px;
   padding: 8px 16px;
   font-size: 12px;
   font-weight: bold;
