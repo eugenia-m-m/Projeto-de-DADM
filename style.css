@@ -6,7 +6,7 @@
 
 /* Cabeçalho */
 div {
-    background-color: #f2e3cf;
+    background-color: #f7edda;
     color: #2e180e;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
@@ -28,7 +28,7 @@ div a{
 
 /* Estilo dos botões / links */
 .button{
-    background-color: #f2e3cf;
+    background-color: #f7edda;
     margin: 0px 20px; 
     color: #2e180e;
     padding: 5px 10px;
@@ -48,7 +48,7 @@ div a{
 }
 
 body{
-    background-color: #f2e3cf;
+    background-color: #f7edda;
 }
 
 main a{
@@ -73,7 +73,7 @@ main a{
 }
 
 .titulo{
-    background-color: #f2e3cf;
+    background-color: #f7edda;
 }
 /* Aqui tem a segunda seção, onde tem o texto e o botão */
 #secao2 {
@@ -82,14 +82,12 @@ main a{
     color: #2e180e;
     margin-left: 350px;
     margin-top: 100px;
-    margin-bottom: 200px;
-
+    margin-bottom: 190px;
 }
+
 #secao2 h1 {
     font-family: Gliker, sans-serif;
     font-size: 3.8em;
-    /* margin-bottom: px; */
-    font-weight: bold;
 }
 
 
@@ -99,24 +97,36 @@ main a{
     margin-bottom: 20px;
 }
 
-
-#secao3{
-    display: inline-block;
-    margin-top: 45px;
-    margin-left: 300px;
+#secao2 a{
+    letter-spacing: 0.2em;
 }
 
-#secao4{
-    /* display: inline-block;
-    flex-direction: row;
-    justify-content: center; */
-    display:flex;
-    justify-content: flex-end;
-    padding: 5px 10px;
-    gap: 10px;
+#person{
+    font-family: Gliker, sans-serif;
+    font-size: 1.1em;
+    color: #2e180e;
+    margin-top: 20px;
+    background-color: #f7edda;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: 70px;
-    margin-left: 300px;
+    text-align: justify;
+    margin-left: 320px;
+    padding-right: 200px;
+    width: 810px;  
+}
+
+#person h2 {
+    font-family: Gliker, sans-serif;
+    font-size: 1.7em;
+    margin-bottom: 5px;
+    /* text-align: center; */
+}
+
+#secao3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 
@@ -124,16 +134,17 @@ main a{
 
 .explorar {
   background-color: #007BFF;  /* azul do botão */
-  color: white; 
+  color: #2e180e; /* cor do texto */
   text-decoration: none;               /* texto branco */
   border: none;
   padding: 8px 16px;
   font-size: 12px;
+  letter-spacing: 0.2em;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
