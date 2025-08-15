@@ -80,8 +80,10 @@ main a{
     display: flex;
     font-family: Gliker;
     color: #2e180e;
-    margin-left: 650px;
+    margin-left: 350px;
+    margin-top: 100px;
     margin-bottom: 200px;
+
 }
 #secao2 h1 {
     font-family: Gliker, sans-serif;
