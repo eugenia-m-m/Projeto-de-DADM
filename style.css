@@ -7,19 +7,16 @@
 /* Cabeçalho */
 .cabecalho{
     background-color: #f7edda;
-    color: #2e180e;
+    color: #4d330b;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 3px 10px;
-    font-size: 1em;
+    font-size: 1.6em;
     position: sticky;
-<<<<<<< HEAD
-=======
     top: 0;
->>>>>>> 849001e9e56fcc2a7bbbb84dea96b325b3ab68e2
 }
 
 .cabecalho a{
-    margin-top: 4px;
+    margin-top: 15px;
     padding: 5px 10px;  
 }
 
@@ -43,7 +40,7 @@
 .button{
     background-color: #f7edda;
     margin: 0px 20px; 
-    color: #2e180e;
+    color: #4d330b;
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 1em;
@@ -65,7 +62,7 @@ body{
 }
 
 main a{
-    color: black;
+    color: #4d330b;
 }
 
 .a {
@@ -74,7 +71,7 @@ main a{
 
 
 /* Aqui começa a primeira seção, onde tem a logo*/
-#logo{
+/* #logo{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -83,76 +80,74 @@ main a{
 }
 #logo img {
     padding: 30px;
-}
+} */
 
-.titulo{
-    padding-left: 20px;
-    background-color: #f7edda;
-}
 /* Aqui tem a segunda seção, onde tem o texto e o botão */
 #secao2 {
     display: flex;
-    font-family: Gliker;
-    color: #2e180e;
-    margin-left: 350px;
-    margin-top: 100px;
-    margin-bottom: 190px;
+    color: #4d330b;
+    margin-left: 270px;
+    margin-top: 170px;
+    margin-bottom: 205px;
+}
+
+.titulo{
+    font-size: 1.4em;
+    padding-left: 40px;
+    background-color: #f7edda;
+}
+
+.text{
+    position: relative;
+    left: 0;
+    transition-property: left;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out
+}
+
+.text:hover{
+    left: 20px;
 }
 
 #secao2 h1 {
     font-family: Gliker, sans-serif;
-    font-size: 3.8em;
+    font-size: 4em;
+    margin-top: 10px;
 }
-
 
 #secao2 p{
     font-family: Open Sans, sans-serif;
-    font-size: 1.4em;
+    font-size: 1.5em;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
-#secao2 a{
-    letter-spacing: 0.2em;
+/* logo */
+#secao2 img{
+    width: 200px;
+    height: 210px;
+    margin-right: 100px;
+
+    position: relative;
+    left: 0;
+    transition-property: left;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out
+} 
+
+#secao2 img:hover{
+    left: 20px;
 }
 
-#person{
-    font-family: Gliker, sans-serif;
-    font-size: 1.1em;
-    color: #2e180e;
-    margin-top: 20px;
-    background-color: #f7edda;
-    justify-content: space-around;
-    align-items: center;
-    text-align: justify;
-    margin-left: 320px;
-    padding-right: 200px;
-    width: 810px;  
-}
-
-#person h2 {
-    font-family: Gliker, sans-serif;
-    font-size: 1.7em;
-    margin-bottom: 5px;
-    /* text-align: center; */
-}
-
-#secao3{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-
-/*Butão azul do explorar. Tá certo o butão só falta o txt ficar branco */
+/*Butão azul do explorar.*/
 
 .explorar {
-  background-color: #007BFF;  /* azul do botão */
-  color: #2e180e; /* cor do texto */
-  text-decoration: none;               /* texto branco */
+  background-color: #007BFF;  
+  color: #2a2c2a; 
+  text-decoration: none; 
   border: none;
   padding: 8px 16px;
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 0.2em;
   font-weight: bold;
   border-radius: 12px;
@@ -162,7 +157,99 @@ main a{
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* ta certo tbm */
+
 .explorar:hover {
-    background-color: #0056b3; }
+    background-color: #0f65c1; 
+}
+
+#secao2 a{
+    letter-spacing: 0.2em;
+}
+
+#secao3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    /* margin-right: 0%; */
+}
+
+.person{
+    font-family: Gliker, sans-serif;
+    font-size: 1.1em;
+    color: #4d330b;
+    background-color: #f7edda;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    padding-right: 5px 10px;
+    margin-left: 5%;
+    margin-bottom: 0;
+    width: 430px;  
+}
+
+.person h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+
+.person p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    margin-right: 5%;
+}
+
+.img img{
+    width: 200px;
+    height: 270px;
+    border-radius: 20%;
+    border: 5px solid #b0a28c;
+
+    
+    position: relative;
+    transition-property: left;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+.img img:hover{
+    height:290px;
+    width: 210px;
+}
+
+.img #img1{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.img #img2{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.img #img3{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.img #img4{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.img p{
+    font-family: Gliker, sans-serif;
+    font-size: 1.1em;
+    color: #4d330b;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
 
