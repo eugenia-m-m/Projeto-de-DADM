@@ -22,7 +22,6 @@
     justify-content: flex-end; /*alinha os itens à esquerda */
     gap: 10px;
     flex-wrap: wrap;
-    justify-self: space-between; 
     margin-top: 8px;
     margin-left: 1rem;  
 }
