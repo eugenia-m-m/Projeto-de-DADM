@@ -8,15 +8,18 @@
 .cabecalho{
     background-color: #f7edda;
     color: #4d330b;
+    border: solid #f3e7ce;
+    border-width: 0 0 1.6px 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 3px 10px;
-    font-size: 1.6em;
+    font-size: 1.5em;
     position: sticky;
     top: 0;
 }
 
 .cabecalho a{
-    margin-top: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     padding: 5px 10px;  
 }
 
@@ -58,7 +61,7 @@
 }
 
 body{
-    background-color: #f7edda;
+    background-color: #f9efe0;
 }
 
 main a{
@@ -94,7 +97,7 @@ main a{
 .titulo{
     font-size: 1.4em;
     padding-left: 40px;
-    background-color: #f7edda;
+    background-color: #f9efe0;
 }
 
 .text{
@@ -178,7 +181,7 @@ main a{
     font-family: Gliker, sans-serif;
     font-size: 1.1em;
     color: #4d330b;
-    background-color: #f7edda;
+    background-color: #f9efe0;
     justify-content: space-around;
     align-items: center;
     text-align: justify;
