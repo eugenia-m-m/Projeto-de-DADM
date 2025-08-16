@@ -10,9 +10,9 @@
     color: #4d330b;
     border: solid #f3e7ce;
     border-width: 0 0 1.6px 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 3px 10px;
-    font-size: 1.5em;
+    font-size: 1.47em;
     position: sticky;
     top: 0;
 }
@@ -63,7 +63,7 @@ body{
     background-color: #f9efe0;
 }
 
-main a{
+#inicio a{
     color: #4d330b;
 }
 
@@ -118,7 +118,7 @@ main a{
 }
 
 #secao2 p{
-    font-family: Open Sans, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5em;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -177,7 +177,6 @@ main a{
 }
 
 .person{
-    font-family: Gliker, sans-serif;
     font-size: 1.1em;
     color: #4d330b;
     background-color: #f9efe0;
@@ -191,14 +190,14 @@ main a{
 }
 
 .person h2 {
-    font-family: Gliker, sans-serif;
+    font-family: cursive;
     font-size: 2.1em;
     margin-bottom: 10px;
 }
 
 .person p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4em;
 }
 
 .img{
@@ -252,5 +251,106 @@ main a{
     margin-top: 10px;
 }
 
+.contato {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 40px auto;
+    margin-top: 120px;
+    padding: 0 20px;
+}
 
+/* Formulário */
+.formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 700px;
+    height: 460px;
+}
 
+.formulario h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f7edda;
+}
+
+#assunto {
+    padding: 30px;
+}
+
+button {
+    background-color: #926956;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #593423;
+    transform: scale(1.1)
+}
+
+/* Informações */
+.info {
+    justify-content: flex-start;
+    margin-right: 1200px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+a:link {
+    color: #2e180e;
+    text-decoration:none;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f7edda;
+    border-top: 1px solid #eee;
+    padding: 1rem;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #555;
+}
+
+.rodape{
+    display: flex;
+}
+
+.linha {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 400px;
+}
