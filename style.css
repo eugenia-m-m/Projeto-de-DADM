@@ -8,6 +8,7 @@
 .cabecalho {
     background-color: #f7edda;
     color: #2e180e;
+    max-width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
     font-size: 1em;
@@ -19,7 +20,6 @@
 .menu-navegacao {
     display: flex;
     justify-content: flex-end; /*alinha os itens à esquerda */
-    max-width: 100%;
     gap: 10px;
     flex-wrap: wrap;
     justify-self: space-between; 
