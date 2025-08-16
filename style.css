@@ -11,7 +11,9 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 3px 10px;
     font-size: 1em;
+    position: sticky;
 }
+
 .cabecalho a{
     margin-top: 4px;
     padding: 5px 10px;  
@@ -21,6 +23,7 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 6px;
+    position: sticky;
 }
 
 /* Container de navegação */
