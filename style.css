@@ -112,7 +112,7 @@ main a{
 }
 
 #secao2 h1 {
-    font-family: Gliker, sans-serif;
+    font-family: cursive;
     font-size: 4em;
     margin-top: 10px;
 }
@@ -191,7 +191,7 @@ main a{
 }
 
 .person h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: Gliker, sans-serif;
     font-size: 2.1em;
     margin-bottom: 10px;
 }
