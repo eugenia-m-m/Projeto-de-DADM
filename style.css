@@ -86,7 +86,7 @@ main a{
 } */
 
 /* Aqui tem a segunda seção, onde tem o texto e o botão */
-#secao2 {
+ #secao2 {
     display: flex;
     color: #4d330b;
     margin-left: 270px;
@@ -225,8 +225,7 @@ main a{
 }
 
 .img img:hover{
-    height:290px;
-    width: 210px;
+    transform: scale(1.1)
 }
 
 .img #img1{
