@@ -5,16 +5,22 @@
 }
 
 /* Cabeçalho */
-div {
+.cabecalho{
     background-color: #f7edda;
     color: #2e180e;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 20px;
+    padding: 3px 10px;
     font-size: 1em;
 }
+.cabecalho a{
+    margin-top: 4px;
+    padding: 5px 10px;  
+}
 
-div a{
-    color: black
+.menu-navegacao{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
 }
 
 /* Container de navegação */
@@ -73,6 +79,7 @@ main a{
 }
 
 .titulo{
+    padding-left: 20px;
     background-color: #f7edda;
 }
 /* Aqui tem a segunda seção, onde tem o texto e o botão */
