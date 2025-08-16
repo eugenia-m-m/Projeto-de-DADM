@@ -5,25 +5,25 @@
 }
 
 /* Cabeçalho */
-.cabecalho {
+div {
     background-color: #f7edda;
     color: #2e180e;
-    max-width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 10px;
+    padding: 20px;
     font-size: 1em;
-    top: 0;
-    position: fixed;
+}
+
+div a{
+    color: black
 }
 
 /* Container de navegação */
-.menu-navegacao {
+.butao{
     display: flex;
-    justify-content: flex-end; /*alinha os itens à esquerda */
+    justify-content: flex-end; /* alinha os itens à esquerda */
     gap: 10px;
     flex-wrap: wrap;
-    margin-top: 8px;
-    margin-left: 1rem;  
+    margin-top: 10px;
 }
 
 /* Estilo dos botões / links */
@@ -61,7 +61,7 @@ main a{
 
 
 /* Aqui começa a primeira seção, onde tem a logo*/
-/* .img{
+#logo{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -70,19 +70,7 @@ main a{
 }
 #logo img {
     padding: 30px;
-    width: 50px;
-    height: 50px;
-    background-color: purple;
-    position: relative;
-    left: 0;
-    transition-property: left;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
-}  
-
-#logo img:hover {
-    left: 100px;
-} */
+}
 
 .titulo{
     background-color: #f7edda;
@@ -138,7 +126,7 @@ main a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
 }
 
 
