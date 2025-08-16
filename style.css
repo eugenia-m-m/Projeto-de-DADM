@@ -5,15 +5,15 @@
 }
 
 /* Cabeçalho */
-header {
-    background-color: rgba(141, 131, 131, 0.8);
-    color: #111010;
+div {
+    background-color: #f7edda;
+    color: #2e180e;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
     font-size: 1em;
 }
 
-header a{
+div a{
     color: black
 }
 
@@ -28,7 +28,9 @@ header a{
 
 /* Estilo dos botões / links */
 .button{
-    background-color: rgba(141, 131, 131, 0.8);
+    background-color: #f7edda;
+    margin: 0px 20px; 
+    color: #2e180e;
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 1em;
@@ -40,7 +42,13 @@ header a{
 
 /* Quando o mouse por cima, muda a cor do botão */
 .button:hover {
+    text-decoration: underline;
+    padding: 3px 10px;
     font-size: 1.1em;
+}
+
+body{
+    background-color: #f7edda;
 }
 
 main a{
@@ -52,41 +60,73 @@ main a{
 }
 
 
-/* Aqui começa a primeira seção, onde tem a img*/
-#secao1{
+/* Aqui começa a primeira seção, onde tem a logo*/
+#logo{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 30px;
-    margin-right: 500px;
+    margin-top: 50px;
+    margin-right: 1000px;
+}
+#logo img {
+    padding: 30px;
 }
 
-/* Aqui tem a segunda seção, onde tem o texto e o botão */
-#secao2{
-    font-family: fantasy;
-    font-size: 1.2em;
-    margin-left: 650px;
-    margin-bottom: 200px;
+.titulo{
+    background-color: #f7edda;
 }
+/* Aqui tem a segunda seção, onde tem o texto e o botão */
+#secao2 {
+    display: flex;
+    font-family: Gliker;
+    color: #2e180e;
+    margin-left: 350px;
+    margin-top: 100px;
+    margin-bottom: 190px;
+}
+
+#secao2 h1 {
+    font-family: Gliker, sans-serif;
+    font-size: 3.8em;
+}
+
 
 #secao2 p{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
+    font-family: Open Sans, sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+#secao2 a{
+    letter-spacing: 0.2em;
+}
+
+#person{
+    font-family: Gliker, sans-serif;
+    font-size: 1.1em;
+    color: #2e180e;
+    margin-top: 20px;
+    background-color: #f7edda;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    margin-left: 320px;
+    padding-right: 200px;
+    width: 810px;  
+}
+
+#person h2 {
+    font-family: Gliker, sans-serif;
+    font-size: 1.7em;
+    margin-bottom: 5px;
+    /* text-align: center; */
 }
 
 #secao3{
-    display: inline-block;
-    margin-top: 45px;
-    margin-left: 300px;
-}
-
-#secao4{
-    display: inline-block;
-    flex-direction: row;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    /* margin-bottom: 70px; */
-    margin-left: 300px;
+    margin-bottom: 50px;
 }
 
 
@@ -94,16 +134,17 @@ main a{
 
 .explorar {
   background-color: #007BFF;  /* azul do botão */
-  color: white; 
+  color: #2e180e; /* cor do texto */
   text-decoration: none;               /* texto branco */
   border: none;
   padding: 8px 16px;
   font-size: 12px;
+  letter-spacing: 0.2em;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
