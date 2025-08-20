@@ -249,31 +249,49 @@ body{
 }
 
 
-/* C[odigo ana paula */
-/* #destaque{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr; 
-    gap: 3px;
-    padding: 20px;
-    margin: 0;
-    /* padding: 0; */
-    /* box-sizing: border-box; */
 
-.personalidade {
+/* Grid dos cards */
+#destaque{
+    display: flex;
+    flex-direction: column;
+    justify-self: self-start;
+    margin-top: 100px;
+    padding: 20px;
+    padding-left: 200px;
+    margin: 0;
+}
+
+#destaque h2 {
+    font-family: cursive;
+    font-size: 2.4em;
+    margin-bottom: 10px;
+    margin-top: 45px;
+}
+
+#destaque p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4em;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 10px;
+    margin-top: 0;
+    padding: 20px;
+    justify-content: space-between;
+    margin-right: auto;
+}
+
+.personalidades {
     width: auto;
     display: flex;
     flex-direction: column; 
     align-items: center; 
+    padding-top: 40px;
+    margin: 0;
 } 
 
-
-/* Grid dos cards */
-#secao1 {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    gap: 10px;
-    padding: 20px;
-}
 .personalidade img {
     height: 300px;
     width: 200px;
@@ -420,11 +438,12 @@ footer {
     justify-content: flex-end;
     padding-left: 400px;
 }
-.personalidade {
+/* .personalidade {
     width: auto;
     display: flex;
     flex-direction: column; 
     align-items: center;
+    margin-top: 40px;
 } 
 
 
@@ -457,7 +476,7 @@ footer {
 
     margin-top: 5px;
     font-style: italic;
-}   
+}    */
 
 
 
