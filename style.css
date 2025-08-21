@@ -73,25 +73,13 @@ body{
 }
 
 
-/* Aqui começa a primeira seção, onde tem a logo*/
-/* #logo{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-    margin-right: 1000px;
-}
-#logo img {
-    padding: 30px;
-} */
-
 /* Aqui tem a segunda seção, onde tem o texto e o botão */
 #inicio {
     margin-top: 100px;
 
 }
 
- #secao2 {
+#secao2 {
     display: flex;
     color: #4d330b;
     margin-left: 270px;
@@ -254,7 +242,6 @@ body{
 #destaque{
     display: flex;
     flex-direction: column;
-    justify-self: self-start;
     margin-top: 100px;
     padding: 20px;
     padding-left: 200px;
@@ -298,7 +285,7 @@ body{
     object-fit: cover;
     flex-grow: 1;
     border-radius: 18px;
-    box-shadow: -1px -3px 0px 6px  rgba(12, 8, 11, 0.1);
+    box-shadow: -1px -3px 0px 6px #beb09b;
     margin-bottom: 18px;
 
     position: relative;
